@@ -39,3 +39,13 @@ export default function * saga () {
   console.log(result)
 }
 ```
+
+This outputs:
+
+```js
+starting saga
+in worker Object {a: "b"}
+Object {random: "output", result: 1000000000}
+```
+
+...while the entire app remains responsive
