@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/mariusandra/kea-parallel-loader#readme",
   "peerDependencies": {
-    "worker-loader": ">= 0.14",
-  },
+    "worker-loader": "*",
+  }
 }
